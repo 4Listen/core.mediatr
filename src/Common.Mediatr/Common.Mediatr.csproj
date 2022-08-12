@@ -4,6 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>4Listen - EsdrasRR</Authors>
+    <Company>4Listen </Company>
+    <PackageProjectUrl>https://github.com/4Listen/core.mediatr</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/4Listen/core.mediatr</RepositoryUrl>
+    <Description>&lt;h1 align="center"&gt;Core.Mediatr
+
+#### This project contains many generics classes to implement the Mediator Pattern.</Description>
   </PropertyGroup>
 
   <ItemGroup>

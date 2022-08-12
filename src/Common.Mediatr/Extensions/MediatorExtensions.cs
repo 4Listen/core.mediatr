@@ -12,9 +12,9 @@ namespace Common.Mediatr.Extensions
 			return await mediator.Send(obterBase);
 		}
 
-		public static async Task<Response<T>> SendPesquisa<T>(this IMediator mediator, string filtro)
+		public static async Task<Response<T>> SendPesquisa<T>(this IMediator mediator, string filter)
 		{
-			var obterBase = new SearchBase<T>() { Filtro = filtro };
+			var obterBase = new SearchBase<T>() { Filter = filter };
 			return await mediator.Send(obterBase);
 		}
 
